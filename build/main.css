@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6e00ff, #00c3ff);
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.card {
+  position: relative;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  text-align: center;
+}
+
+.badge {
+  position: absolute;
+  top: -0.75rem;
+  left: -0.75rem;
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 0.375rem 0.875rem;
+  border-radius: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.icon {
+  width: 6.25rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+  color: #111;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 0.875rem;
+  color: #999;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-wrap: wrap;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 1.875rem;
+  padding: 0.625rem 1rem;
+  flex: 1;
+}
+
+.mail-icon {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 0.875rem;
+  width: 160px;
+}
+
+.submit-btn {
+  background: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 1.875rem;
+  padding: 0.625rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.submit-btn:hover {
+  background: rgb(204, 121.6, 0);
+}
+
+/*# sourceMappingURL=main.css.map */

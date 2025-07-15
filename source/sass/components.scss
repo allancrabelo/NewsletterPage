@@ -1,0 +1,89 @@
+body {
+  @include center;
+  min-height: 100vh;
+  background: $bg-gradient;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.card {
+  position: relative;
+  background: $white;
+  padding: rem(32px);
+  border-radius: $radius;
+  box-shadow: $shadow;
+  width: 380px;
+  text-align: center;
+}
+
+.badge {
+  position: absolute;
+  top: rem(-12px);
+  left: rem(-12px);
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  color: $white;
+  font-size: rem(12px);
+  padding: rem(6px) rem(14px);
+  border-radius: rem(20px);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.icon {
+  width: rem(100px);
+  margin-bottom: rem(16px);
+}
+
+h1 {
+  font-size: rem(20px);
+  color: $text-dark;
+  margin: rem(8px) 0;
+}
+
+p {
+  font-size: rem(14px);
+  color: $text-light;
+  margin-bottom: rem(24px);
+}
+
+.form {
+  @include center;
+  gap: rem(10px);
+  flex-wrap: wrap;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: rem(30px);
+  padding: rem(10px) rem(16px);
+  flex: 1;
+}
+
+.mail-icon {
+  margin-right: rem(8px);
+  font-size: rem(16px);
+}
+
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: rem(14px);
+  width: 160px;
+}
+
+.submit-btn {
+  background: $primary;
+  color: $white;
+  border: none;
+  border-radius: rem(30px);
+  padding: rem(10px) rem(24px);
+  font-weight: bold;
+  cursor: pointer;
+  @include transition(all);
+  &:hover {
+    background: darken($primary, 10%);
+  }
+}
