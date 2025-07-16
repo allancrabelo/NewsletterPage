@@ -78,3 +78,4 @@ Experience developing responsive interfaces compatible across multiple devices a
 Contributions
 Contributions are highly welcome! Feel free to open issues, suggest improvements, or submit pull requests.
 
+STACKS: `HTML`, `CSS`, `SASS-modules, maxins, variables, etc.`, `NODE.JS`
