@@ -42,9 +42,6 @@ Development
 To compile Sass files to CSS and watch for changes in real time:
 
 ```
-bash
-Copiar
-Editar
 npm run sass
 Preview
 Open the index.html file in your preferred browser to view the responsive layout.
@@ -54,9 +51,6 @@ Configure your build process as needed. The project is structured to compile the
 
 ```
 📁 Project Structure
-bash
-Copiar
-Editar
 /source
   ├── main.scss           # Main file importing all Sass modules
   └── sass/
